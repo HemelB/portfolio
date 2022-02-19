@@ -9,12 +9,12 @@ h1{
 #name{
     color: gold;
 }
-section{
+.flex-container{
     display: flex;
 }
 .half-width{
     width: 50%;
-    margin: 10px 30px; 
+    margin: 10px 20px; 
     padding-left: 10px;
 }
 .half-width img{
@@ -37,4 +37,32 @@ section{
     background-image: url(/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience{
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.exp{
+    width: 44%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding:0 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px gray;
+}
+#exp1{
+    border-left: 10px solid salmon;
+    border-image:linear-gradient(orange, salmon);
+    border-image-slice:1;
+}
+
+#exp2{
+    border-left: 10px solid blue;
+    border-image:linear-gradient(rgb(76, 49, 226), rgb(33, 13, 148));
+    border-image-slice:1;
+}
+
+footer p{
+    text-align: center;
 }
